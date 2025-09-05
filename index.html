@@ -1,10 +1,58 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ytdowload - YouTube Video Downloader</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
 <body>
-<h1>Привет Интернет1</h1>
-<p>I'm hosted with GitHub Pages.</p>
-<a title="Долгоживущие" href="https://t.me/c/1624614271/73805" target="_blank" rel="noopener">Долгоживущие</a>
+    <header>
+        <h1>Ytdowload</h1>
+        <p>Free YouTube Video Downloader</p>
+    </header>
 
+    <main>
+        <section class="download-section">
+            <h2>Download YouTube Videos</h2>
+            <form id="download-form">
+                <div class="input-group">
+                    <input type="url" id="video-url" placeholder="Paste YouTube URL here..." required>
+                    <button type="submit">Download</button>
+                </div>
+            </form>
+            
+            <div class="format-options" id="format-options" style="display: none;">
+                <h3>Choose Format</h3>
+                <div class="format-list" id="format-list">
+                    <!-- Formats will be populated here -->
+                </div>
+            </div>
+        </section>
+
+        <section class="features">
+            <h2>Features</h2>
+            <div class="feature-grid">
+                <div class="feature">
+                    <h3>High Quality</h3>
+                    <p>Download videos in up to 4K resolution</p>
+                </div>
+                <div class="feature">
+                    <h3>Multiple Formats</h3>
+                    <p>Support for MP4, WEBM, and audio-only formats</p>
+                </div>
+                <div class="feature">
+                    <h3>Fast & Free</h3>
+                    <p>No registration required, completely free to use</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Ytdowload. For educational purposes only.</p>
+    </footer>
+
+    <script src="script.js"></script>
 </body>
-  <footer>Copy</footer>
 </html>
