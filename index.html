@@ -15,7 +15,8 @@
         .gradient-text { background: linear-gradient(90deg, #3b82f6, #8b5cf6); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
         .gradient-android { background: linear-gradient(90deg, #3ddc84, #07c160); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
         .feature-card:hover { border-color: #3b82f6; transform: translateY(-5px); transition: all 0.3s ease; }
-        .android-card:hover { border-color: #3ddc84; }
+        .btn-donate { background: linear-gradient(90deg, #f59e0b, #d97706); transition: all 0.3s ease; }
+        .btn-donate:hover { box-shadow: 0 0 20px rgba(245, 158, 11, 0.4); transform: scale(1.05); }
     </style>
 </head>
 <body class="font-sans">
@@ -28,13 +29,15 @@
                     <span class="text-xl font-bold">YTDownloaders <span class="text-slate-500 text-sm">&</span> YTSmart</span>
                 </div>
                 <span class="text-[10px] text-blue-400 uppercase tracking-wider font-medium md:border-l md:border-slate-700 md:pl-3">
-                    Обновлено: Март 2026
+                    Релизы: Март 2026
                 </span>
             </div>
-            <div class="hidden lg:flex gap-6 text-sm font-medium">
+            <div class="hidden lg:flex gap-6 text-sm font-medium items-center">
                 <a href="#windows" class="hover:text-blue-400 transition text-slate-300">Windows</a>
                 <a href="#android" class="hover:text-green-400 transition text-slate-300">Android</a>
-                <a href="#install" class="hover:text-yellow-400 transition text-slate-300">Инструкция</a>
+                <a href="https://t.me/send?start=IVzogdHqQUQr" class="btn-donate px-4 py-2 rounded-lg text-white font-bold flex items-center gap-2">
+                    <i class="fas fa-heart"></i> Donate
+                </a>
                 <a href="https://sourceforge.net/projects/ytdowloader/" class="bg-blue-600 hover:bg-blue-700 px-4 py-2 rounded-lg transition text-white">Скачать PC</a>
             </div>
         </div>
@@ -43,14 +46,19 @@
     <header class="py-16 px-6 text-center">
         <div class="max-w-4xl mx-auto">
             <div class="inline-block px-4 py-1 border border-blue-500/30 rounded-full text-blue-400 text-sm mb-6 bg-blue-500/10">
-                🚀 Экосистема обновлена: Добавлена версия для Android!
+                🚀 Экосистема обновлена: Поддержка VPN и Android-версия
             </div>
             <h1 class="text-5xl md:text-6xl font-extrabold mb-6 leading-tight">
                 Загружайте контент на <span class="gradient-text">Любом</span> устройстве
             </h1>
             <p class="text-xl text-slate-400 mb-10">
-                Профессиональные инструменты для сохранения видео и аудио. Без рекламы и лишних сложностей.
+                Бесплатные инструменты от Secret Archives Team. Поддержите проект, если он вам полезен!
             </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                 <a href="https://t.me/send?start=IVzogdHqQUQr" class="btn-donate text-white px-8 py-4 rounded-xl font-bold text-lg flex items-center gap-2 shadow-lg">
+                    <i class="fas fa-coffee"></i> Поддержать разработчиков
+                </a>
+            </div>
         </div>
     </header>
 
@@ -60,28 +68,30 @@
             <div class="flex items-center gap-4 mb-12">
                 <h2 class="text-3xl font-bold text-white font-mono uppercase tracking-tight">💻 YTDownloaders v1.14.4</h2>
                 <span class="h-px flex-1 bg-slate-800"></span>
-                <span class="text-xs text-blue-500 font-bold px-3 py-1 border border-blue-500/30 rounded">PC ВЕРСИЯ</span>
+                <span class="text-xs text-blue-500 font-bold px-3 py-1 border border-blue-500/30 rounded">WINDOWS 10/11</span>
             </div>
             
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8 text-center md:text-left">
                 <div class="glass p-8 rounded-2xl feature-card border border-transparent">
                     <div class="text-blue-500 text-3xl mb-4"><i class="fas fa-shield-alt"></i></div>
                     <h3 class="text-xl font-bold mb-2 text-white">Proton VPN</h3>
-                    <p class="text-slate-400 text-sm">Встроенное управление Proton VPN для стабильной работы и обхода блокировок.</p>
+                    <p class="text-slate-400 text-sm">Встроенная интеграция для стабильного соединения и обхода ограничений.</p>
                 </div>
                 <div class="glass p-8 rounded-2xl feature-card border border-transparent">
-                    <div class="text-purple-500 text-3xl mb-4"><i class="fas fa-sliders-h"></i></div>
+                    <div class="text-purple-500 text-3xl mb-4"><i class="fas fa-tv"></i></div>
                     <h3 class="text-xl font-bold mb-2 text-white">Выбор качества</h3>
-                    <p class="text-slate-400 text-sm">Гибкая настройка разрешения от 360p до 720p HD перед началом загрузки.</p>
+                    <p class="text-slate-400 text-sm">Настройка разрешения от 360p до 720p HD. Оптимизация под ваши задачи.</p>
                 </div>
-                <div class="glass p-8 rounded-2xl feature-card border border-transparent flex flex-col justify-between">
-                    <div>
-                        <div class="text-green-500 text-3xl mb-4"><i class="fas fa-box-open"></i></div>
-                        <h3 class="text-xl font-bold mb-2 text-white">Всё включено</h3>
-                        <p class="text-slate-400 text-sm">FFmpeg и все зависимости уже внутри. Работает сразу после запуска.</p>
-                    </div>
-                    <a href="https://sourceforge.net/projects/ytdowloader/" class="mt-6 text-blue-400 font-bold hover:underline text-sm">Скачать EXE →</a>
+                <div class="glass p-8 rounded-2xl feature-card border border-transparent">
+                    <div class="text-green-500 text-3xl mb-4"><i class="fas fa-file-signature"></i></div>
+                    <h3 class="text-xl font-bold mb-2 text-white">Кастомные имена</h3>
+                    <p class="text-slate-400 text-sm">Переименовывайте файлы прямо в программе перед началом загрузки.</p>
                 </div>
+            </div>
+            <div class="mt-8 text-center">
+                <a href="https://sourceforge.net/projects/ytdowloader/files/latest/download" class="text-blue-400 hover:text-blue-300 font-medium underline underline-offset-4">
+                    Скачать прямую версию YTDownloaders EXE
+                </a>
             </div>
         </section>
 
@@ -89,42 +99,41 @@
             <div class="flex items-center gap-4 mb-12">
                 <h2 class="text-3xl font-bold text-white font-mono uppercase tracking-tight">📱 YTSmart v1.0.4</h2>
                 <span class="h-px flex-1 bg-slate-800"></span>
-                <span class="text-xs text-green-500 font-bold px-3 py-1 border border-green-500/30 rounded">ANDROID ВЕРСИЯ</span>
+                <span class="text-xs text-green-500 font-bold px-3 py-1 border border-green-500/30 rounded">ANDROID 8.0+</span>
             </div>
 
-            <div class="grid lg:grid-cols-2 gap-12 items-center">
+            <div class="grid lg:grid-cols-2 gap-12 items-center text-center lg:text-left">
                 <div class="space-y-6">
-                    <h3 class="text-4xl font-extrabold leading-tight">Ваш мобильный <span class="gradient-android">компаньон</span></h3>
-                    <p class="text-slate-400 leading-relaxed">Мощное приложение для Android, позволяющее скачивать видео и музыку прямо в память смартфона. Поддерживает плейлисты и фоновую работу.</p>
+                    <h3 class="text-4xl font-extrabold leading-tight">Мультимедиа в вашем <span class="gradient-android">кармане</span></h3>
+                    <p class="text-slate-400 leading-relaxed text-sm">Легкий клиент для Android: загрузка аудио-плейлистов, конвертация в MP3 и автоматическое обновление движка yt-dlp.</p>
                     
-                    <ul class="grid md:grid-cols-2 gap-4 text-sm">
-                        <li class="flex items-start gap-2 text-slate-300 italic"><i class="fas fa-check-circle text-green-500 mt-1"></i> Загрузка плейлистов</li>
-                        <li class="flex items-start gap-2 text-slate-300 italic"><i class="fas fa-check-circle text-green-500 mt-1"></i> Режим MP3/Аудио</li>
-                        <li class="flex items-start gap-2 text-slate-300 italic"><i class="fas fa-check-circle text-green-500 mt-1"></i> Авто-обновление yt-dlp</li>
-                        <li class="flex items-start gap-2 text-slate-300 italic"><i class="fas fa-check-circle text-green-500 mt-1"></i> Фоновая загрузка</li>
-                    </ul>
+                    <div class="flex flex-wrap justify-center lg:justify-start gap-4 text-xs">
+                        <span class="bg-slate-800 px-3 py-1 rounded-full text-slate-300">📦 Плейлисты</span>
+                        <span class="bg-slate-800 px-3 py-1 rounded-full text-slate-300">🎧 Только аудио</span>
+                        <span class="bg-slate-800 px-3 py-1 rounded-full text-slate-300">⚡ Фоновые загрузки</span>
+                    </div>
 
                     <div class="pt-4">
                         <a href="https://sourceforge.net/projects/ytsmart/files/YTSmart_v.1.0.4.apk/download" class="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-xl font-bold text-lg transition inline-flex items-center gap-2">
-                            <i class="fab fa-android text-2xl"></i> Скачать YTSmart APK
+                            <i class="fab fa-android text-2xl"></i> Скачать YTSmart.apk
                         </a>
                     </div>
                 </div>
 
-                <div class="glass p-8 rounded-3xl border-green-500/20">
-                    <h4 class="text-lg font-bold mb-4 text-green-400 italic">Как использовать:</h4>
+                <div class="glass p-8 rounded-3xl border-green-500/20 text-left">
+                    <h4 class="text-lg font-bold mb-4 text-green-400 italic">Быстрый старт:</h4>
                     <div class="space-y-4 text-sm text-slate-300">
                         <div class="flex gap-4">
-                            <span class="w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center text-green-400 shrink-0 font-bold">1</span>
-                            <p>Установите APK и разрешите доступ к хранилищу.</p>
+                            <span class="w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center text-green-400 shrink-0 text-xs font-bold">1</span>
+                            <p>Установите APK (разрешив "Неизвестные источники").</p>
                         </div>
                         <div class="flex gap-4">
-                            <span class="w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center text-green-400 shrink-0 font-bold">2</span>
-                            <p>При первом запуске дождитесь лога: <code class="text-green-400">yt-dlp обновлён</code>.</p>
+                            <span class="w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center text-green-400 shrink-0 text-xs font-bold">2</span>
+                            <p>Дождитесь завершения авто-обновления yt-dlp при запуске.</p>
                         </div>
                         <div class="flex gap-4">
-                            <span class="w-8 h-8 rounded-full bg-green-500/20 flex items-center justify-center text-green-400 shrink-0 font-bold">3</span>
-                            <p>Вставьте ссылку и выберите "Видео" или "Аудио". Файл сохранится в папку <b>YTSmart</b> в загрузках.</p>
+                            <span class="w-6 h-6 rounded-full bg-green-500/20 flex items-center justify-center text-green-400 shrink-0 text-xs font-bold">3</span>
+                            <p>Файлы сохраняются в папку <b>YTSmart</b> в Загрузках.</p>
                         </div>
                     </div>
                 </div>
@@ -135,35 +144,38 @@
             <div class="grid md:grid-cols-2 gap-8">
                 <div class="border-l-4 border-yellow-500 bg-yellow-500/10 p-6 rounded-r-2xl">
                     <h2 class="text-xl font-bold mb-4 flex items-center gap-3 text-yellow-500">
-                        <i class="fas fa-desktop"></i> Для Windows
+                        <i class="fas fa-desktop"></i> Windows SmartScreen
                     </h2>
-                    <p class="text-xs text-slate-300 mb-4 leading-relaxed">
-                        Нажмите <b>"Подробнее"</b> -> <b>"Выполнить в любом случае"</b> в окне Windows SmartScreen.
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Из-за отсутствия цифровой подписи (софт бесплатный), выберите <b>"Подробнее"</b> -> <b>"Выполнить в любом случае"</b>.
                     </p>
                 </div>
                 <div class="border-l-4 border-green-500 bg-green-500/10 p-6 rounded-r-2xl">
                     <h2 class="text-xl font-bold mb-4 flex items-center gap-3 text-green-500">
-                        <i class="fab fa-android"></i> Для Android
+                        <i class="fab fa-android"></i> Установка APK
                     </h2>
-                    <p class="text-xs text-slate-300 mb-4 leading-relaxed">
-                        Разрешите <b>"Установку из неизвестных источников"</b> в настройках безопасности вашего браузера или файлового менеджера.
+                    <p class="text-xs text-slate-300 leading-relaxed">
+                        Перейдите в Настройки -> Безопасность и разрешите установку приложений из внешних источников для вашего браузера.
                     </p>
                 </div>
             </div>
         </section>
 
         <footer class="text-center pt-16 border-t border-white/5">
-            <div class="flex flex-wrap justify-center gap-8 mb-12">
+            <div class="flex flex-wrap justify-center gap-8 mb-8 text-sm">
                 <a href="https://t.me/Secret_Archives_Team" class="text-slate-400 hover:text-blue-400 transition flex items-center gap-2">
                     <i class="fab fa-telegram-plane"></i> Поддержка
                 </a>
                 <a href="https://t.me/tayniearhiv" class="text-slate-400 hover:text-orange-400 transition flex items-center gap-2">
                     <i class="fas fa-bullhorn"></i> Новости
                 </a>
+                <a href="https://t.me/send?start=IVzogdHqQUQr" class="text-yellow-500 hover:text-yellow-400 transition font-bold flex items-center gap-2">
+                    <i class="fas fa-heart"></i> Поддержать проект (Donate)
+                </a>
             </div>
             <p class="text-[10px] text-slate-600 uppercase tracking-widest mb-2 font-bold italic">Copyright (c) 2026 Secret Archives Team</p>
-            <p class="text-xs text-slate-600 leading-relaxed">
-                Лицензия BSL 1.1: Некоммерческое использование разрешено. Коммерческое использование ограничено до 2030 года.
+            <p class="text-[10px] text-slate-600 px-10">
+                Используя данное ПО, вы соглашаетесь с условиями BSL 1.1. Некоммерческое использование без ограничений.
             </p>
         </footer>
 
